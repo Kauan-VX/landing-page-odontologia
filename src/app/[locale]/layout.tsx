@@ -19,8 +19,8 @@ interface RootLayoutProps {
 }
 
 export const metadata: Metadata = {
-  title: 'WebBoilerplate NextJs',
-  description: 'Boilerplate made to facilitate development',
+  title: 'Odonto Xavier',
+  description: 'Landing-page de odontologia',
   manifest: '/manifest.json',
 }
 

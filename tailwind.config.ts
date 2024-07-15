@@ -25,17 +25,20 @@ const config: Config = {
         '8xl': '1440px',
       },
       colors: {
-        'text-color': '#000000',
-        'main-color': '#302b2b',
+        'main-color': '#2977D5',
         'primary-bg': '#fff',
+        'light-blue': '#44C6E9',
+        'navy-blue': '#00296D',
         'secondary-bg': '#e9e9e9',
         dark: {
           background: '#000',
           text: '#ffffff',
+          'bg-banner': '#112132',
         },
         light: {
           background: '#fff',
-          text: '#000',
+          text: '#252525',
+          'bg-banner': '#D4E4F4',
         },
       },
     },

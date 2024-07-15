@@ -1,12 +1,12 @@
 {
   "theme_color": "#d0d0d0",
-  "background_color": "#000000",
+  "background_color": "#fff",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "WebBoilerplate NextJs",
-  "short_name": "Boilerplate NextJs",
-  "description": "Boilerplate made to facilitate development",
+  "name": "Odontologia Xavier",
+  "short_name": "Odonto Xavier",
+  "description": "Landing-page de odontologia",
   "icons": [
     {
       "src": "/icon-192x192.png",
