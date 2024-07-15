@@ -12,7 +12,7 @@ const config: Config = {
   theme: {
     extend: {
       height: {
-        heightLessNav: 'h-[calc(100vh-64px)]',
+        heightLessNav: 'h-[calc(100vh-96px)]',
       },
       screens: {
         smphoneMax: { max: '320px' },

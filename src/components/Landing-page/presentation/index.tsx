@@ -3,13 +3,14 @@ import Image from 'next/image'
 
 export default function Presentation() {
   return (
-    <section className="size-full flex items-center justify-center">
-      <div className="w-1/2 flex flex-col">
-        <p className="text-main-color">No Rio de Janeiro</p>
+    <section className="w-full h-heightLessNav p-8  flex items-center justify-center">
+      <div className="w-1/2 flex  flex-col">
+        <p className="text-main-color ">No Rio de Janeiro</p>
 
-        <header className="flex flex-col w-[70%]">
+        <header className="flex flex-col my-12  pr-40">
           <h1 className="text-navy-blue font-bold text-6xl leading-snug">
-            Uma excelente experiencia{' '}
+            Uma excelente experiencia
+            <br />
             <span className="text-main-color font-bold text-6xl">
               Odontológica
             </span>
@@ -29,9 +30,9 @@ export default function Presentation() {
       </div>
 
       <div className="w-1/2">
-        <div className="size-full bg-gradient-to-b from-light-blue to-main-color  flex justify-center max-h-[890px] max-w-[890px]  rounded-full">
+        <div className="size-full bg-gradient-to-b from-light-blue to-main-color  flex justify-center max-h-[800px] max-w-[800px]  rounded-full">
           <Image
-            className="w-full max-w-96 z-[2]"
+            className="w-full object-cover max-w-[500px] z-[2]"
             alt="Banner"
             width={590}
             height={890}
