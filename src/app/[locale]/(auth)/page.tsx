@@ -1,6 +1,7 @@
 'use client'
 
 import Banner from 'src/components/Landing-page/banner'
+import Contact from 'src/components/Landing-page/contact'
 import Doctor from 'src/components/Landing-page/doctor'
 import Feedback from 'src/components/Landing-page/feedback'
 import OtherServices from 'src/components/Landing-page/other-services'
@@ -16,6 +17,7 @@ export default function Home() {
       <Feedback />
       <Doctor />
       <Question />
+      <Contact />
     </main>
   )
 }

@@ -3,7 +3,7 @@ import { QUESTION } from 'public/constants/question'
 
 export default function Question() {
   return (
-    <section className="w-full flex flex-col p-8 justify-center">
+    <section className="w-full flex flex-col p-8 justify-center bg-bg-question">
       <header className="mb-20 flex flex-col items-center">
         <p className="text-light-blue">Tire suas dúvidas</p>
         <h1 className="text-navy-blue font-bold text-6xl">

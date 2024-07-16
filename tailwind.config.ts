@@ -13,6 +13,11 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'service-bg': "url('/landing-page/service/bg.png')",
+        'diagonal-gradient': 'linear-gradient(60deg, #25252512, #00c9ff2e);',
+        'bg-contact':
+          'linear-gradient(6deg, #2977d5, #5893de, #81aee6, #a9c9ed, #d4e4f4);',
+        'bg-question':
+          'linear-gradient(187deg, #ffffff, #ffffff, #ffffff, #d4e4f4, #bbd8f5);',
       },
       height: {
         heightLessNav: 'h-[calc(100vh-96px)]',
