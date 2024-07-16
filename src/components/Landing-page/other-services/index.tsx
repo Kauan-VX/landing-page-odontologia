@@ -3,9 +3,9 @@ import CardService from './card-service'
 
 export default function OtherServices() {
   return (
-    <section className="w-full flex flex-col p-8 justify-center">
+    <section className="w-full flex flex-col p-8 justify-center bg-service-bg bg-no-repeat bg-auto bg-right">
       <header className="mb-20">
-        <p>Especialidades</p>
+        <p className="text-light-blue">Especialidades</p>
         <h1 className="text-navy-blue font-bold text-6xl">Outros serviços</h1>
       </header>
       <div className="flex flex-row items-center justify-center gap-8 flex-wrap  w-full">

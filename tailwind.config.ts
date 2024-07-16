@@ -11,6 +11,9 @@ const config: Config = {
   darkMode: ['class'],
   theme: {
     extend: {
+      backgroundImage: {
+        'service-bg': "url('/landing-page/service/bg.png')",
+      },
       height: {
         heightLessNav: 'h-[calc(100vh-96px)]',
       },
@@ -34,11 +37,13 @@ const config: Config = {
           background: '#000',
           text: '#ffffff',
           'bg-banner': '#112132',
+          'shadow-feedback': '#44c6e92b',
         },
         light: {
           background: '#fff',
           text: '#252525',
           'bg-banner': '#D4E4F4',
+          'shadow-feedback': '#44c6e92b',
         },
       },
     },
