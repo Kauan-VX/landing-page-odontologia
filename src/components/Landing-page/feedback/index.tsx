@@ -4,7 +4,7 @@ import CardFeedback from './card-feedback'
 
 export default function Feedback() {
   return (
-    <section className="w-full flex flex-col p-8 justify-center">
+    <section className="w-full flex flex-col p-8 justify-center container">
       <header className="mb-20 flex flex-col items-center">
         <p className="text-light-blue">Testemunhos</p>
         <h1 className="text-navy-blue font-bold text-6xl">

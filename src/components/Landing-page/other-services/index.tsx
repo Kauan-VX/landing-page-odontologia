@@ -3,7 +3,7 @@ import CardService from './card-service'
 
 export default function OtherServices() {
   return (
-    <section className="w-full flex flex-col p-8 justify-center bg-service-bg bg-no-repeat bg-auto bg-right">
+    <section className="w-full flex flex-col p-8 justify-center bg-service-bg bg-no-repeat bg-auto bg-right container">
       <header className="mb-20">
         <p className="text-light-blue">Especialidades</p>
         <h1 className="text-navy-blue font-bold text-6xl">Outros serviços</h1>

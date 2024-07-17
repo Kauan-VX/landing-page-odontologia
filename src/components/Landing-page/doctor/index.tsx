@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function Doctor() {
   return (
-    <section className="w-full flex items-center p-8 justify-center">
-      <div className="w-1/2">
+    <section className="w-full flex items-center p-8 justify-center lgMax:flex-col container">
+      <div className="w-1/2 lgMax:w-full">
         <Image
           className="object-cover w-full"
           src={'/landing-page/doctor/doctor.png'}
@@ -12,7 +12,7 @@ export default function Doctor() {
           alt="Doutor(a)"
         />
       </div>
-      <div className="w-1/2 flex flex-col  p-8 ">
+      <div className="w-1/2 lgMax:w-full flex flex-col  p-8 ">
         <header className=" flex flex-col gap-4 mb-8">
           <p className="text-light-blue">Sobre mim</p>
           <h1 className="text-navy-blue font-bold text-6xl">

@@ -5,3 +5,9 @@
 * {
   -webkit-font-smoothing: antialiased;
 }
+
+body {
+  .container {
+    @apply m-auto max-w-8xl;
+  }
+}

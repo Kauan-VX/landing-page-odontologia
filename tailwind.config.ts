@@ -13,6 +13,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'service-bg': "url('/landing-page/service/bg.png')",
+        'clinic-bg': "url('/landing-page/clinic/details-clinic.svg')",
         'diagonal-gradient': 'linear-gradient(60deg, #25252512, #00c9ff2e);',
         'bg-contact':
           'linear-gradient(6deg, #2977d5, #5893de, #81aee6, #a9c9ed, #d4e4f4);',
@@ -27,10 +28,11 @@ const config: Config = {
         bigphoneMax: { max: '500px' },
         smMax: { max: '640px' },
         mdMax: { max: '768px' },
-        lgMax: { max: '1024px' },
+        lgMax: { max: '1060px' },
+        ultrawideMax: { max: '1650px' },
       },
       maxWidth: {
-        '8xl': '1440px',
+        '8xl': '1920px',
       },
       colors: {
         'main-color': '#2977D5',
