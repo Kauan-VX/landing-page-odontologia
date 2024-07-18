@@ -5,10 +5,8 @@ export default function Question() {
   return (
     <section className="w-full flex flex-col p-8 justify-center bg-bg-question container">
       <header className="mb-20 flex flex-col items-center">
-        <p className="text-light-blue">Tire suas dúvidas</p>
-        <h1 className="text-navy-blue font-bold text-6xl">
-          Perguntas frequentes
-        </h1>
+        <p className="subtitle text-light-blue">Tire suas dúvidas</p>
+        <h1 className="title text-center">Perguntas frequentes</h1>
       </header>
       <div className="flex flex-row items-center justify-center gap-8 flex-wrap  w-full">
         <Accordion

@@ -11,8 +11,8 @@ export default function Contact() {
     <section className="w-full flex flex-col justify-center bg-bg-contact ">
       <div className="container">
         <header className="mb-20 flex flex-col items-end pt-8 pr-8">
-          <p className="text-light-blue">Dê uma volta</p>
-          <h1 className="text-navy-blue font-bold text-6xl">Contato</h1>
+          <p className="subtitle text-light-blue">Dê uma volta</p>
+          <h1 className="title">Contato</h1>
         </header>
         <motion.div
           className="flex items-center justify-center  p-8 w-full lgMax:flex-col-reverse lgMax:p-0 overflow-x-hidden"
@@ -114,6 +114,7 @@ export default function Contact() {
         </motion.div>
         <div className="mt-16">
           <iframe
+            title="Mapa"
             className="w-full h-96"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.3736669067307!2d-42.971685723893785!3d-22.4149574204804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x984da4e55f0403%3A0x92566ad040cd04fe!2sNoclaf%20Tech!5e0!3m2!1spt-BR!2sbr!4v1721155290854!5m2!1spt-BR!2sbr"
             loading="lazy"

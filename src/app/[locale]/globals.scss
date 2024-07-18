@@ -9,5 +9,28 @@
 body {
   .container {
     @apply mx-auto max-w-8xl;
+
+    button {
+      &.btn-light-blue {
+        @apply bg-light-blue text-white;
+      }
+    }
+    a {
+      &.link-simple-gray {
+        @apply bg-transparent border-[#666666] border-[1px] text-[#777777] rounded-xl p-2;
+      }
+    }
+  }
+
+  section {
+    header {
+      .subtitle {
+        @apply text-3xl mdMax:text-2xl text-light-blue;
+      }
+
+      .title {
+        @apply text-5xl mdMax:text-4xl text-navy-blue font-bold;
+      }
+    }
   }
 }

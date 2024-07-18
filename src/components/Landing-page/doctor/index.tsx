@@ -14,8 +14,8 @@ export default function Doctor() {
       </div>
       <div className="w-1/2 lgMax:w-full flex flex-col  p-8 ">
         <header className=" flex flex-col gap-4 mb-8">
-          <p className="text-light-blue">Sobre mim</p>
-          <h1 className="text-navy-blue font-bold text-6xl">
+          <p className="subtitle">Sobre mim</p>
+          <h1 className="title">
             Dra. Patricia Nieves <br /> Kiriaco
           </h1>
         </header>

@@ -8,8 +8,8 @@ export default function OtherServices() {
     "
     >
       <header className="mb-20">
-        <p className="text-light-blue">Especialidades</p>
-        <h1 className="text-navy-blue font-bold text-6xl">Outros serviços</h1>
+        <p className="subtitle text-light-blue">Especialidades</p>
+        <h1 className="title">Outros serviços</h1>
       </header>
       <div className="flex flex-row items-center justify-center gap-8 flex-wrap  w-full">
         {SERVICE.map((banner, index) => (

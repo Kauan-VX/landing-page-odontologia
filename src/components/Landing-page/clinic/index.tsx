@@ -15,8 +15,8 @@ export default function Clinic() {
   return (
     <section className="w-full flex flex-col p-8 justify-center bg-clinic-bg bg-no-repeat bg-auto bg-right-top container">
       <header className="mb-10">
-        <p className="text-light-blue">Instalações</p>
-        <h1 className="text-navy-blue font-bold text-6xl">Nossa Clínica</h1>
+        <p className="subtitle text-light-blue">Instalações</p>
+        <h1 className="title">Nossa Clínica</h1>
       </header>
       <div className="flex flex-row items-center justify-center gap-8 flex-wrap  w-full">
         <Swiper

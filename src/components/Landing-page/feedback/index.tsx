@@ -12,10 +12,8 @@ export default function Feedback() {
   return (
     <section className="w-full flex flex-col p-8 justify-center container mb-[5%]">
       <header className=" flex flex-col items-center">
-        <p className="text-light-blue">Testemunhos</p>
-        <h1 className="text-navy-blue font-bold text-6xl">
-          O que nossos pacientes dizem
-        </h1>
+        <p className="subtitle">Testemunhos</p>
+        <h1 className="title text-center">O que nossos pacientes dizem</h1>
       </header>
       <div className="flex flex-row items-center justify-center gap-8 flex-wrap  w-full">
         <Swiper

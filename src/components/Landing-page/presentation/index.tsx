@@ -27,7 +27,7 @@ export default function Presentation() {
         <p className="text-main-color ">No Rio de Janeiro</p>
 
         <header className="flex flex-col my-12  ">
-          <h1 className="text-navy-blue font-bold text-6xl leading-snug smMax:text-5xl smMax:leading-normal bigphoneMax:text-4xl">
+          <h1 className="l leading-snug smMax:text-5xl smMax:leading-normal bigphoneMax:text-4xl">
             Uma excelente experiência
             <br />
             <span>
@@ -45,9 +45,11 @@ export default function Presentation() {
           purus magna pretium luctus.
         </p>
 
-        <div className="flex justify-evenly items-center w-[70%]">
-          <Button className="bg-light-blue">Sua vez</Button>
-          <Link>Outros Serviços</Link>
+        <div className="flex justify-evenly items-center w-[70%] lgMax:w-full lgMax:justify-between lgMax:flex-wrap smphoneMax:gap-2">
+          <Button className="btn-light-blue" variant="shadow">
+            Sua vez
+          </Button>
+          <Link className="link-simple-gray">Outros Serviços</Link>
         </div>
       </div>
 
@@ -63,7 +65,7 @@ export default function Presentation() {
           />
         </motion.picture>
 
-        <div className=" bg-gradient-to-b from-light-blue to-main-color w-[800px] h-[800px]  smMax:h-[800px] smMax:w-[800px] smMax:top-[-15%] smMax:right-[-40%] lgMax:w-[1000px] lgMax:h-[1000px] rounded-full absolute lgMax:top-[-66%] lgMax:right-[-17%] top-0 "></div>
+        <div className="bg-gradient-to-b from-light-blue to-main-color smMax:top-[-15%] smMax:right-[-40%] lgMax:size-[1000px] lgMax:top-[-66%] lgMax:right-[-17%] size-[800px] bigphoneMax:size-[800px] bigphoneMax:right-[-27%] bigphoneMax:top-[-32%] rounded-full absolute top-0"></div>
       </motion.div>
 
       <motion.div className="w-1/2   lgMax:hidden relative flex justify-center items-center">
