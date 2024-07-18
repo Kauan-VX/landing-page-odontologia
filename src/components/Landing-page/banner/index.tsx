@@ -3,8 +3,8 @@ import CardBanner from './components'
 
 export default function Banner() {
   return (
-    <section className="w-full  p-2  flex items-center justify-center dark:bg-dark-bg-banner bg-light-bg-banner">
-      <div className="flex container flex-row items-center justify-between flex-wrap  w-full">
+    <section className="w-full  p-2  flex items-center justify-center dark:bg-dark-bg-banner bg-light-bg-banner mt-[3%]">
+      <div className="flex container flex-row items-center justify-evenly  flex-wrap  w-full">
         {BANNER.map((banner, index) => (
           <CardBanner
             key={index}

@@ -12,8 +12,24 @@ export const FEEDBACK: PropsCardFeedBack[] = [
     text: `Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh, interdum faucibus ad diam vivamus vehicula fames.`,
   },
   {
+    qtd_start: 3,
+    title: 'Maria Paz',
+    text: `Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh, interdum faucibus ad diam vivamus vehicula fames.`,
+  },
+  {
     qtd_start: 5,
     title: 'Silvia Rios',
+    text: `Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh, interdum faucibus ad diam vivamus vehicula fames.`,
+  },
+
+  {
+    qtd_start: 3,
+    title: 'Maria Paz',
+    text: `Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh, interdum faucibus ad diam vivamus vehicula fames.`,
+  },
+  {
+    qtd_start: 3,
+    title: 'Maria Paz',
     text: `Lorem ipsum dolor sit amet consectetur adipiscing elit conubia, massa facilisi lectus ullamcorper ridiculus potenti iaculis nibh, interdum faucibus ad diam vivamus vehicula fames.`,
   },
 ]

@@ -26,7 +26,7 @@ export const Navigation = ({ children, type, routes }: SidebarProps) => {
       {type === 'Sidebar' && <Sidebar router={routes} />}
       <div className="w-full  flex-1 flex-col">
         {type === 'Navbar' && <NavbarComponent router={routes} />}
-        <main className="mt-4  h-full w-full overflow-visible">
+        <main className="size-full">
           <div className="flex h-[90%]  w-full flex-col gap-4 ">{children}</div>
         </main>
       </div>

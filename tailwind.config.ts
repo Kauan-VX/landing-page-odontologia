@@ -21,7 +21,7 @@ const config: Config = {
           'linear-gradient(187deg, #ffffff, #ffffff, #ffffff, #d4e4f4, #bbd8f5);',
       },
       height: {
-        heightLessNav: 'h-[calc(100vh-96px)]',
+        heightLessNav: 'h-[calc(100vh-80px)]',
       },
       screens: {
         smphoneMax: { max: '320px' },
@@ -30,6 +30,7 @@ const config: Config = {
         mdMax: { max: '768px' },
         lgMax: { max: '1060px' },
         ultrawideMax: { max: '1650px' },
+        lgMin: { min: '1060px' },
       },
       maxWidth: {
         '8xl': '1920px',

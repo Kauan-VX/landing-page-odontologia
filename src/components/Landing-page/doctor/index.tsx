@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Doctor() {
   return (
-    <section className="w-full flex items-center p-8 justify-center lgMax:flex-col container">
+    <section className="w-full flex items-center p-8 justify-center lgMax:flex-col container mb-[5%]">
       <div className="w-1/2 lgMax:w-full">
         <Image
           className="object-cover w-full"

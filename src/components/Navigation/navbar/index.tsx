@@ -24,7 +24,7 @@ export default function NavbarComponent({ router }: NavigationProps) {
     <Navbar
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
-      className="shadow-sm h-24"
+      className="shadow-sm h-20"
     >
       <NavbarContent className="!flex-grow-0">
         <NavbarItem className="z-10 size-10 sm:hidden">
