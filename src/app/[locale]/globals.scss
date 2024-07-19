@@ -12,7 +12,11 @@ body {
 
     button {
       &.btn-light-blue {
-        @apply bg-light-blue text-white;
+        @apply py-2 font-medium bg-light-blue text-white px-12 transition-all shadow-[4px_4px_0px] shadow-main-color hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px];
+      }
+
+      &.btn-border-light-blue {
+        @apply border-light-blue bg-transparent text-light-blue rounded-xl p-2 border-[1px];
       }
     }
     a {

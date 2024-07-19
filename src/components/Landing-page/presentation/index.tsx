@@ -24,10 +24,12 @@ export default function Presentation() {
       viewport={{ once: true, amount: 0.25 }}
     >
       <div className="w-1/2 flex  flex-col lgMax:w-full lgMax:mt-8  lgMax:pl-0">
-        <p className="text-main-color ">No Rio de Janeiro</p>
+        <p className="text-main-color text-3xl mdMax:text-2xl">
+          No Rio de Janeiro
+        </p>
 
         <header className="flex flex-col my-12  ">
-          <h1 className="l leading-snug smMax:text-5xl smMax:leading-normal bigphoneMax:text-4xl">
+          <h1 className="text-navy-blue font-bold text-6xl smMax:text-5xl bigphoneMax:text-4xl">
             Uma excelente experiência
             <br />
             <span>
@@ -46,7 +48,7 @@ export default function Presentation() {
         </p>
 
         <div className="flex justify-evenly items-center w-[70%] lgMax:w-full lgMax:justify-between lgMax:flex-wrap smphoneMax:gap-2">
-          <Button className="btn-light-blue" variant="shadow">
+          <Button className="btn-light-blue px-10" variant="shadow">
             Sua vez
           </Button>
           <Link className="link-simple-gray">Outros Serviços</Link>

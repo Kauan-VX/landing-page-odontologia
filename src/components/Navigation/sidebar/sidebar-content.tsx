@@ -165,7 +165,7 @@ export const SidebarContent = React.forwardRef<HTMLElement, SidebarProps>(
                       items={item.items}
                       variant="flat"
                     >
-                      {/* {item.items.map(renderItem)} */}
+                      {item.items.map(renderItem)}
                     </Listbox>
                   ) : (
                     renderItem(item)

@@ -2,10 +2,8 @@
 
 import Image from 'next/image'
 
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-// Import Swiper styles
 import { CLINIC_SLIDER } from 'public/constants/clinic-slider'
 import 'swiper/css'
 import 'swiper/css/pagination'

@@ -67,7 +67,7 @@ export default function Contact() {
           </motion.div>
           <motion.div
             variants={planetVariants('right')}
-            className="w-[60%] flex justify-end px-52 lgMax:w-full lgMax:px-0"
+            className="w-[60%] flex justify-end px-32 lgMax:w-full lgMax:px-0"
           >
             <form className="p-8 bg-diagonal-gradient rounded-md size-full flex flex-col gap-8 ">
               <h1 className="font-bold text-3xl text-white">
