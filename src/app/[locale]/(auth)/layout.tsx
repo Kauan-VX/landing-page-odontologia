@@ -12,8 +12,13 @@ export default function AuthLayout({ children }: LayoutProps) {
       icon: '',
     },
     {
-      name: 'Sobre',
+      name: 'Serviços',
       router: '/about',
+      icon: '',
+    },
+    {
+      name: 'Nós',
+      router: '/contact',
       icon: '',
     },
     {
