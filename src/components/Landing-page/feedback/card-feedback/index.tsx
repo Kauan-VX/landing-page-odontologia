@@ -22,7 +22,7 @@ export default function CardFeedback({
     />
   ))
   return (
-    <div className="size-full h-96 flex flex-col gap-4 p-4 rounded-2xl max-w-[400px] bg-[#FFF9FD] max-h-[230px] dark:shadow-dark-shadow-feedback shadow-light-shadow-feedback shadow-md">
+    <div className="size-full h-96 flex flex-col gap-4 p-4 rounded-2xl max-w-[400px] dark:bg-dark-bg-banner bg-light-bg-card max-h-[230px] dark:shadow-dark-shadow-feedback shadow-light-shadow-feedback shadow-md">
       <header className="w-full flex items-center justify-between mb-4">
         <h2 className="text-lg">{title}</h2>
         <span className="flex items-center gap-2">{stars}</span>

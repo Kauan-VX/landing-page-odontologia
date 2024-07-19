@@ -37,7 +37,7 @@ export default function CardService({
   }
   return (
     <motion.div
-      className="size-full  flex flex-col gap-4 p-4 rounded-2xl max-w-[500px] bg-[#FFF9FD] max-h-[500px] bigphoneMax:max-h-none "
+      className="size-full  flex flex-col gap-4 p-4 rounded-2xl max-w-[500px] dark:bg-dark-bg-banner bg-light-bg-card max-h-[500px] bigphoneMax:max-h-none "
       variants={fadeInAnimationsVariants}
       initial="initial"
       whileInView="animate"

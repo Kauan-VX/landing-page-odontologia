@@ -12,7 +12,8 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'service-bg': "url('/landing-page/service/bg.png')",
+        'service-light': "url('/landing-page/service/bg-light.svg')",
+        'service-dark': "url('/landing-page/service/bg-dark.svg')",
         'clinic-bg': "url('/landing-page/clinic/details-clinic.svg')",
         'diagonal-gradient': 'linear-gradient(60deg, #25252512, #00c9ff2e);',
         'bg-contact':
@@ -46,12 +47,14 @@ const config: Config = {
           text: '#ffffff',
           'bg-banner': '#112132',
           'shadow-feedback': '#44c6e92b',
+          'bg-card': '#334155',
         },
         light: {
           background: '#fff',
           text: '#252525',
           'bg-banner': '#D4E4F4',
           'shadow-feedback': '#44c6e92b',
+          'bg-card': '#FFF9FD',
         },
       },
     },

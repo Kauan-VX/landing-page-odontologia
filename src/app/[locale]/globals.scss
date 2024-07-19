@@ -7,6 +7,7 @@
 }
 
 body {
+  @apply dark:bg-dark-background bg-light-background;
   .container {
     @apply mx-auto max-w-8xl;
 
@@ -26,14 +27,20 @@ body {
     }
   }
 
-  section {
-    header {
-      .subtitle {
-        @apply text-3xl mdMax:text-2xl text-light-blue;
-      }
+  main {
+    @apply dark:bg-dark-background bg-light-background;
 
-      .title {
-        @apply text-5xl mdMax:text-4xl text-navy-blue font-bold;
+    section {
+      @apply dark:bg-dark-background bg-light-background;
+
+      header {
+        .subtitle {
+          @apply text-3xl mdMax:text-2xl text-light-blue;
+        }
+
+        .title {
+          @apply text-5xl mdMax:text-4xl text-navy-blue font-bold;
+        }
       }
     }
   }

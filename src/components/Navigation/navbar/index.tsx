@@ -14,6 +14,7 @@ import {
 import { useTranslations } from 'next-intl'
 import React from 'react'
 import { NavigationProps } from 'src/components/Navigation'
+import { ThemeSwitcher } from 'src/components/Theme'
 import { Logo } from './logo'
 
 export default function NavbarComponent({ router }: NavigationProps) {
@@ -34,6 +35,7 @@ export default function NavbarComponent({ router }: NavigationProps) {
         <NavbarItem>
           <NavbarBrand className="smMax:hidden  flex items-center justify-center gap-4">
             <Logo />
+            <ThemeSwitcher />
             <span className="flex flex-col items-center">
               <h1 className="font-bold">Ondontologia Integral</h1>
               <p className="text-sm">Saúde & Estética Dental</p>

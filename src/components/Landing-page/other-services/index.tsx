@@ -4,7 +4,7 @@ import CardService from './card-service'
 export default function OtherServices() {
   return (
     <section
-      className="w-full flex flex-col p-8 justify-center bg-service-bg bg-no-repeat bg-auto bg-right container mb-[5%]
+      className="w-full flex flex-col p-8 justify-center dark:bg-service-dark light:bg-service-light bg-no-repeat bg-auto bg-right container mb-[5%]
     "
     >
       <header className="mb-20">
