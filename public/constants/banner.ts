@@ -11,8 +11,8 @@ export const BANNER: PropsCardBanner[] = [
   {
     icon: '/landing-page/banner/mail.svg',
     title: 'Email',
-    subtitle: 'xavier@odonto.com',
-    text: 'recepcaor@odonto.com',
+    subtitle: 'kauanvieiraxavierdev@gmail.com',
+    text: '',
   },
   {
     icon: '/landing-page/banner/phone.svg',

@@ -11,7 +11,7 @@ import Question from 'src/components/Landing-page/questions'
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <Presentation />
       <Banner />
       <OtherServices />

@@ -3,7 +3,7 @@ import { QUESTION } from 'public/constants/question'
 
 export default function Question() {
   return (
-    <section className="w-full flex flex-col p-8 justify-center bg-bg-question container">
+    <section className="w-full flex flex-col p-8 justify-center bg-bg-question dark:bg-bg-dark-question container">
       <header className="mb-20 flex flex-col items-center">
         <p className="subtitle text-light-blue">Tire suas dúvidas</p>
         <h1 className="title text-center">Perguntas frequentes</h1>
@@ -50,7 +50,7 @@ export default function Question() {
         >
           {QUESTION.map((question, index) => (
             <AccordionItem
-              className="dark:shadow-dark-shadow-feedback shadow-light-shadow-feedback shadow-md py-1 px-4 rounded-2xl mt-4"
+              className="dark:shadow-dark-shadow-feedback shadow-light-shadow-feedback dark:bg-[#0b2745] bg-light-bg-card shadow-md   rounded-2xl mt-4"
               key={index}
               aria-label={question.question}
               title={question.question}

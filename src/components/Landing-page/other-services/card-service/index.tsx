@@ -1,5 +1,4 @@
 'use client'
-import { Link } from '@nextui-org/react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
@@ -37,7 +36,7 @@ export default function CardService({
   }
   return (
     <motion.div
-      className="size-full  flex flex-col gap-4 p-4 rounded-2xl max-w-[500px] dark:bg-dark-bg-banner bg-light-bg-card max-h-[500px] bigphoneMax:max-h-none "
+      className="size-full  flex flex-col gap-4 p-4 rounded-2xl max-w-[500px] dark:bg-[#0b2745] bg-light-bg-card max-h-[500px] bigphoneMax:max-h-none "
       variants={fadeInAnimationsVariants}
       initial="initial"
       whileInView="animate"
@@ -59,7 +58,7 @@ export default function CardService({
 
       <p className="dark:text-dark-text text-light-text">{text}</p>
 
-      <Link href={link}>Ver mais</Link>
+      {/* <Link href={link}>Ver mais</Link> */}
     </motion.div>
   )
 }

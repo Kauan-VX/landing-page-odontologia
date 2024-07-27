@@ -8,7 +8,7 @@ import CardContact from './card-contact'
 
 export default function Contact() {
   return (
-    <section className="w-full flex flex-col justify-center bg-bg-contact ">
+    <section className="w-full flex flex-col justify-center bg-bg-contact dark:bg-bg-dark-contact">
       <div className="container">
         <header className="mb-20 flex flex-col items-end pt-8 pr-8">
           <p className="subtitle text-light-blue">Dê uma volta</p>
@@ -40,28 +40,35 @@ export default function Contact() {
 
             <ul className="flex items-center w-full  justify-center gap-10 mt-16 bigphoneMax:gap-20">
               <li>
-                <Image
-                  width={40}
-                  height={40}
-                  alt="facebook"
-                  src={'/landing-page/contact/facebook.svg'}
-                />
+                <a href="https://github.com/Kauan-VX" target="_blank">
+                  <Image
+                    width={40}
+                    height={40}
+                    alt="facebook"
+                    src={'/landing-page/contact/github.svg'}
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/kauan-vx/" target="_blank">
+                  <Image
+                    width={40}
+                    height={40}
+                    alt="linkedin"
+                    src={'/landing-page/contact/linkedin.svg'}
+                  />
+                </a>
               </li>
               <li>
-                <Image
-                  width={40}
-                  height={40}
-                  alt="linkedin"
-                  src={'/landing-page/contact/linkedin.svg'}
-                />
-              </li>
-              <li>
-                <Image
-                  width={40}
-                  height={40}
-                  alt="instagram"
-                  src={'/landing-page/contact/instagram.svg'}
-                />
+                <a href="https://www.kauanxavier.dev/" target="_blank">
+                  <Image
+                    width={40}
+                    height={40}
+                    alt="instagram"
+                    src={'/landing-page/contact/portfolio.svg'}
+                  />
+                </a>
               </li>
             </ul>
           </motion.div>
@@ -106,7 +113,7 @@ export default function Contact() {
                   className="col-span-12 md:col-span-6 mb-6 md:mb-0"
                 />
               </div>
-              <Button className="mt-8 w-full max-w-72 p-4 bg-white bigphoneMax:max-w-none">
+              <Button className="mt-8 w-full max-w-72 p-4 bg-white dark:bg-[#356395] bigphoneMax:max-w-none">
                 Enviar
               </Button>
             </form>

@@ -13,7 +13,7 @@ export default function Doctor() {
         />
       </div>
       <div className="w-1/2 lgMax:w-full flex flex-col  p-8 ">
-        <header className=" flex flex-col gap-4 mb-8">
+        <header className="flex flex-col gap-4 mb-8">
           <p className="subtitle">Sobre mim</p>
           <h1 className="title">
             Dra. Patricia Nieves <br /> Kiriaco
@@ -21,31 +21,30 @@ export default function Doctor() {
         </header>
         <ul className="list-disc ml-4">
           <li>
-            Médica Cirujano, graduada en la Universidad Nacional de Córdoba,
+            Médica Cirurgiã, graduada na Universidade Nacional de Córdoba,
             Argentina.
           </li>
-          <li>Odontóloga, graduada en la Universidad de París, Francia</li>
+          <li>Odontóloga, graduada na Universidade de Paris, França</li>
           <li>
-            Docente de la Universidad Nacional de Córdoba desde el año 1975
+            Docente da Universidade Nacional de Córdoba desde o ano de 1975
           </li>
-          <li>Miembro de las siguientes Academias:</li>
+          <li>Membro das seguintes Academias:</li>
         </ul>
         <ul className="list-disc ml-10 mt-1">
-          <li>A.L.A.O: Academia Latinoamericana de Oseointegración.</li>
+          <li>A.L.A.O: Academia Latino-americana de Osseointegração.</li>
           <li>
-            A.I.I.O: Academia Internacional de Implantes y Oseointegración .
-            Miembro Fundador
+            A.I.I.O: Academia Internacional de Implantes e Osseointegração.
+            Membro Fundador.
           </li>
           <li>
-            A.V.O.I.O: Academia Venezolana de Oseointegración e Implantologìa
-            Oral. Miembro Honorario.
+            A.V.O.I.O: Academia Venezuelana de Osseointegração e Implantologia
+            Oral. Membro Honorário.
           </li>
           <li>
-            Pierre Fauchard Academy: Academia de Honor de Odontologìa de
-            E.E.U.U.
+            Pierre Fauchard Academy: Academia de Honra de Odontologia dos E.U.A.
           </li>
           <li>
-            A.I.I.P: Academia Internacional de Implantología y Periodoncia –
+            A.I.I.P: Academia Internacional de Implantologia e Periodontia –
             Barcelona. Presidente Internacional.
           </li>
         </ul>

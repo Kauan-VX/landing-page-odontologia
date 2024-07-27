@@ -4,19 +4,19 @@ export const CONTACT: PropsCardContact[] = [
   {
     icon: '/landing-page/contact/message.svg',
     title: 'Nos envie um email',
-    text: `info@tudentista.com.ar`,
+    text: `kauanvieiraxavierdev@gmail.com`,
   },
 
   {
     icon: '/landing-page/contact/whatsapp.svg',
     title: 'Converse conosco',
-    text: `+54 35176085XX`,
+    text: `+55 (21) 96742-3852`,
   },
 
   {
     icon: '/landing-page/contact/phone.svg',
     title: 'Entre em contato conosco',
-    text: `0810 888 90XX`,
+    text: `+55 (21) 96742-3852`,
   },
 
   {

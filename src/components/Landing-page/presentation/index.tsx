@@ -16,6 +16,7 @@ export default function Presentation() {
   ]
   return (
     <motion.section
+      id="home"
       className="w-full h-heightLessNav p-8  flex items-center justify-center lgMax:flex-col-reverse overflow-hidden container mt-8
       "
       variants={staggerContainer(1, 2)}
@@ -24,17 +25,17 @@ export default function Presentation() {
       viewport={{ once: true, amount: 0.25 }}
     >
       <div className="w-1/2 flex  flex-col lgMax:w-full lgMax:mt-8  lgMax:pl-0">
-        <p className="text-main-color text-3xl mdMax:text-2xl">
+        <p className="text-main-color dark:text-dark-text text-3xl mdMax:text-2xl">
           No Rio de Janeiro
         </p>
 
         <header className="flex flex-col my-12  ">
-          <h1 className="text-navy-blue font-bold text-6xl smMax:text-5xl bigphoneMax:text-4xl">
+          <h1 className="text-navy-blue dark:text-dark-text font-bold text-6xl smMax:text-5xl bigphoneMax:text-4xl">
             Uma excelente experiência
             <br />
             <span>
               <FlipWords
-                className="text-main-color font-bold text-6xl smMax:text-5xl bigphoneMax:text-4xl"
+                className="text-main-color dark:text-light-blue font-bold text-6xl smMax:text-5xl bigphoneMax:text-4xl"
                 words={words}
               />
             </span>
@@ -42,9 +43,8 @@ export default function Presentation() {
         </header>
 
         <p className="dark:text-dark-text text-light-text my-4 w-[70%] lgMax:w-full">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit molestie,
-          rhoncus luctus arcu ut eros augue. Eu commodo laoreet parturient quam
-          purus magna pretium luctus.
+          Descubra a excelência em cuidados odontológicos com nossos
+          especialistas dedicados e tratamentos de alta qualidade.
         </p>
 
         <div className="flex justify-evenly items-center w-[70%] lgMax:w-full lgMax:justify-between lgMax:flex-wrap smphoneMax:gap-2">

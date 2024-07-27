@@ -18,8 +18,12 @@ const config: Config = {
         'diagonal-gradient': 'linear-gradient(60deg, #25252512, #00c9ff2e);',
         'bg-contact':
           'linear-gradient(6deg, #2977d5, #5893de, #81aee6, #a9c9ed, #d4e4f4);',
+        'bg-dark-contact':
+          'linear-gradient(19deg, #001de25e, #020911, #11355c, #074b90, #183f66);',
         'bg-question':
           'linear-gradient(187deg, #ffffff, #ffffff, #ffffff, #d4e4f4, #bbd8f5);',
+        'bg-dark-question':
+          'linear-gradient(187deg, #112132, #112132, #112132, #183f66, #074b90);',
       },
       height: {
         heightLessNav: 'h-[calc(100vh-80px)]',
@@ -42,11 +46,12 @@ const config: Config = {
         'light-blue': '#44C6E9',
         'navy-blue': '#00296D',
         'secondary-bg': '#e9e9e9',
+        'nextui-content1': '#f00',
         dark: {
-          background: '#000',
+          background: '#143362',
           text: '#ffffff',
           'bg-banner': '#112132',
-          'shadow-feedback': '#44c6e92b',
+          'shadow-feedback': '#ffffff14',
           'bg-card': '#334155',
         },
         light: {
@@ -59,6 +64,23 @@ const config: Config = {
       },
     },
   },
-  plugins: [nextui()],
+  plugins: [
+    nextui({
+      themes: {
+        light: {
+          colors: {
+            background: '#0b2745',
+            content1: '#fff',
+          },
+        },
+
+        dark: {
+          colors: {
+            content1: '#0b2745',
+          },
+        },
+      },
+    }),
+  ],
 }
 export default config

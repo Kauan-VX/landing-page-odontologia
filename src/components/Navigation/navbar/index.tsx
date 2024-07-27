@@ -14,7 +14,6 @@ import {
 import { useTranslations } from 'next-intl'
 import React from 'react'
 import { NavigationProps } from 'src/components/Navigation'
-import { ThemeSwitcher } from 'src/components/Theme'
 import { Logo } from './logo'
 
 export default function NavbarComponent({ router }: NavigationProps) {
@@ -25,7 +24,7 @@ export default function NavbarComponent({ router }: NavigationProps) {
     <Navbar
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
-      className="shadow-sm h-20"
+      className="shadow-sm h-20 bg-transparent"
     >
       <NavbarContent className="!flex-grow-0">
         <NavbarItem className="z-10 size-10 sm:hidden">
@@ -35,7 +34,6 @@ export default function NavbarComponent({ router }: NavigationProps) {
         <NavbarItem>
           <NavbarBrand className="smMax:hidden  flex items-center justify-center gap-4">
             <Logo />
-            <ThemeSwitcher />
             <span className="flex flex-col items-center">
               <h1 className="font-bold">Ondontologia Integral</h1>
               <p className="text-sm">Saúde & Estética Dental</p>
@@ -78,8 +76,8 @@ export default function NavbarComponent({ router }: NavigationProps) {
         <NavbarItem>
           <ThemeSwitcher />
         </NavbarItem> */}
-        <NavbarItem className="smMax:hidden">
-          <Button>Sua vez</Button>
+        <NavbarItem className="smMax:hidden ">
+          <Button className="bg-light-blue">Sua vez</Button>
         </NavbarItem>
 
         <NavbarItem className="z-10 size-10 sm:hidden">

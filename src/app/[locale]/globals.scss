@@ -4,10 +4,26 @@
 
 * {
   -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+
+  ::-webkit-scrollbar {
+    @apply w-4;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply dark:bg-dark-bg-banner bg-light-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-main-color rounded-[40px] transition;
+    &:hover {
+      @apply bg-light-blue;
+    }
+  }
 }
 
 body {
-  @apply dark:bg-dark-background bg-light-background;
+  @apply dark:bg-dark-bg-banner bg-light-background;
   .container {
     @apply mx-auto max-w-8xl;
 
@@ -22,24 +38,22 @@ body {
     }
     a {
       &.link-simple-gray {
-        @apply bg-transparent border-[#666666] border-[1px] text-[#777777] rounded-xl p-2;
+        @apply bg-transparent border-[#666666] dark:border-dark-text border-[1px] text-[#777777] dark:text-dark-text rounded-xl p-2;
       }
     }
   }
 
   main {
-    @apply dark:bg-dark-background bg-light-background;
+    @apply dark:bg-dark-bg-banner bg-light-background;
 
     section {
-      @apply dark:bg-dark-background bg-light-background;
-
       header {
         .subtitle {
-          @apply text-3xl mdMax:text-2xl text-light-blue;
+          @apply text-3xl mdMax:text-2xl text-light-blue dark:text-dark-text;
         }
 
         .title {
-          @apply text-5xl mdMax:text-4xl text-navy-blue font-bold;
+          @apply text-5xl mdMax:text-4xl text-navy-blue dark:text-light-blue font-bold;
         }
       }
     }
