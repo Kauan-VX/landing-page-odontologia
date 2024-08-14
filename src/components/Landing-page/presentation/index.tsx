@@ -17,7 +17,7 @@ export default function Presentation() {
   return (
     <motion.section
       id="home"
-      className="w-full h-heightLessNav p-8  flex items-center justify-center lgMax:flex-col-reverse overflow-hidden container mt-8
+      className="w-full h-heightLessNav p-8  flex items-center justify-center lgMax:flex-col-reverse overflow-hidden container 
       "
       variants={staggerContainer(1, 2)}
       initial="hidden"
@@ -67,7 +67,7 @@ export default function Presentation() {
           />
         </motion.picture>
 
-        <div className="bg-gradient-to-b from-light-blue to-main-color smMax:top-[-15%] smMax:right-[-40%] lgMax:size-[1000px] lgMax:top-[-66%] lgMax:right-[-17%] size-[800px] bigphoneMax:size-[800px] bigphoneMax:right-[-27%] bigphoneMax:top-[-32%] rounded-full absolute top-0"></div>
+        <div className="bg-gradient-to-b from-light-blue to-main-color smMax:top-[-15%] smMax:right-[-40%] lgMax:size-[800px]  lgMax:top-[-66%] lgMax:right-[-17%] size-[800px] bigphoneMax:size-[800px] bigphoneMax:right-[-27%] bigphoneMax:top-[-32%] rounded-full absolute top-0"></div>
       </motion.div>
 
       <motion.div className="w-1/2   lgMax:hidden relative flex justify-center items-center">

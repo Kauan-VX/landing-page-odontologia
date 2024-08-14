@@ -19,11 +19,11 @@ const config: Config = {
         'bg-contact':
           'linear-gradient(6deg, #2977d5, #5893de, #81aee6, #a9c9ed, #d4e4f4);',
         'bg-dark-contact':
-          'linear-gradient(19deg, #001de25e, #020911, #11355c, #074b90, #183f66);',
+          'linear-gradient(19deg, #001de25e 0%, #020911 25%, #11355c 50%, #074b90 75%, #183f66 100%);',
         'bg-question':
           'linear-gradient(187deg, #ffffff, #ffffff, #ffffff, #d4e4f4, #bbd8f5);',
         'bg-dark-question':
-          'linear-gradient(187deg, #112132, #112132, #112132, #183f66, #074b90);',
+          'linear-gradient(187deg, #112132 0%, #112132 30%, #183f66 60%, #074b90 100%);',
       },
       height: {
         heightLessNav: 'h-[calc(100vh-80px)]',
